@@ -1,4 +1,4 @@
-#Mi gestor de proyectos. 
+Mi gestor de proyectos. 
 (Construcción de una aplicación de gestión de proyectos con PHP y MySQL).
 
 <li>Para este ejercicio, primero se crea una base de datos en phpmyadmin (simple_pm).
