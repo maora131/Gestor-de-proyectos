@@ -4,20 +4,23 @@ body {
    padding: 0 15px;
    margin: 0 15px;
    font-family: lato, sans-serif, arial;
+   background-color: rgb(215, 191, 253);
 }
 .ui-jqgrid-htable th,
 .ui-jqgrid tr.jqgrow td{ 
     text-transform: capitalize; 
+    
 }
 .ui-jqgrid-htable th div{
     font-weight: bold;
+    
 }
 #menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1590C2;
+    background-color: #9479f8;
 }
 
 #menu ul li {
@@ -33,7 +36,7 @@ body {
 }
 #menu  ul li a:hover,
 #menu .active {
-    background-color: #ddd;
+    background-color: rgb(203, 202, 245);
     color:black;
 }
 .footer {
@@ -42,8 +45,16 @@ body {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #3e377c;
   text-align: center;
+}
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
 }
 .ui-tabs-panel #subtitle{
   display:none;
@@ -58,3 +69,18 @@ body {
     font-size:13px;
     padding-left:5px !important;
 }
+
+
+.ui-jqgrid .ui-jqgrid-titlebar {
+    background-color: #847cd1;
+}
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {
+    background-color: #b3ade9;
+}
+.ui-jqgrid .ui-jqgrid-pager {
+    background-color: #b3ade9;
+}
+.ui-jqgrid .ui-pg-table td{
+    background-color: #b3ade9;
+}
+

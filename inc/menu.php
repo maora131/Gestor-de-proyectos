@@ -6,6 +6,6 @@
 </div>
 
 <br />
-<div style="color:red">
-Hello, manager! 
+<div style="color:blue">
+Hola, manager! 
 </div>

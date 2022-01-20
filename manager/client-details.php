@@ -5,7 +5,7 @@ include_once("../phpGrid/conf.php");
 include_once('../inc/head.php');
 ?>
 
-<h1>My Simple Project Management</h1>
+<h1>Mi gestor de proyectos</h1>
 
 <?php
 $_GET['currentPage'] = 'clients';
@@ -14,10 +14,10 @@ include_once('../inc/menu.php');
 $clientId = (isset($_GET['id'])) ? intval($_GET['id']) : 0;
 ?>
 
-<h3>Client Details</h3>
+<h3>Detalles del cliente</h3>
 
 
-<h4>Projects</h4>
+<h4>Proyectos</h4>
 <?php
 $dgProj = new C_DataGrid("SELECT id, ClientID, ProjectName, ProjectManagerID, HourlyRate, Budget FROM projects", "id", "projects");
 $dgProj->set_query_filter(" ClientID = $clientId ");
@@ -28,7 +28,7 @@ $dgProj->enable_edit();
 $dgProj->display();
 ?>
 
-<h4>Contacts</h4>
+<h4>Contactos</h4>
 <?php
 $dgCont = new C_DataGrid("SELECT id, FirstName, LastName, Email, Occupation, Phone, ClientID FROM contacts", "id", "contacts");
 $dgCont->set_query_filter(" ClientID = $clientId ");

@@ -5,20 +5,20 @@ include_once("../phpGrid/conf.php");
 include_once('../inc/head.php');
 ?>
 
-<h1>My Simple Project Management - Employee</h1>
+<h1>Mi gestor de proyectos - Empleado</h1>
 
 <div id="menu">
     <ul>
-        <li><a href="" class="active">Tasks</a></li>
+        <li><a href="" class="active">Tareas</a></li>
     </ul>
 </div>
 <br />
 
-<div style="color:red">
-Hello, employee! 
+<div style="color:blue">
+Hola, empleado! 
 </div>
 
-<h3>My Active Tasks</h3>
+<h3>Mis tareas activas</h3>
 
 <?php
 $empId = intval(2); // hard code for demo. In real world, the id should be retrieved in PHP SESSION 
@@ -42,7 +42,7 @@ $dgTask->display();
 ?>
 
 
-<h3>My Hours History</h3>
+<h3>Mi historial de horas</h3>
 
 <?php
 $dgHourHist = new C_DataGrid("SELECT id, `Date`, `Time`, WorkCompleted, TaskID, ProjectID, EmployeeID FROM hours", "id", "hours");

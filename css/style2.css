@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+body{
+  background-color: rgb(190, 167, 212);
+}
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #9389eb;
+  text-align: center;
+}
+h1{
+  font-family: 'Dongle', sans-serif;
+  font-size:38pt;
+}

@@ -5,7 +5,7 @@ include_once("../phpGrid/conf.php");
 include_once('../inc/head.php');
 ?>
 
-<h1>My Simple Project Management</h1>
+<h1>Mi gestor de proyectos</h1>
 
 <?php
 $_GET['currentPage'] = 'projects';
@@ -13,7 +13,7 @@ include_once('../inc/menu.php');
 ?>
 
 
-<h3>Projects</h3>
+<h3>Proyectos</h3>
 
 <?php
 $dgProj = new C_DataGrid("SELECT id, ClientID, Active, ProjectName, StatusID, ProjectManagerID, HourlyRate, Budget FROM projects", "id", "projects");

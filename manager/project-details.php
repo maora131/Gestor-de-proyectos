@@ -5,7 +5,7 @@ include_once("../phpGrid/conf.php");
 include_once('../inc/head.php');
 ?>
 
-<h1>My Simple Project Management</h1>
+<h1>Mi gestor de proyectos</h1>
 
 <?php
 $_GET['currentPage'] = 'projects';
@@ -14,7 +14,7 @@ include_once('../inc/menu.php');
 $projectId = (isset($_GET['id'])) ? intval($_GET['id']) : 0;
 ?>
 
-<h3>Project Details</h3>
+<h3>Detalles del proyecto</h3>
 
 
 <h4>Milestones</h4>
