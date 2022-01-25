@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Mi gestor de tareas sencillo | phpGrid</title>
-    <link type="text/css" rel="Stylesheet" href="../css/style2.css" />
+    <link type="text/css" rel="Stylesheet" href="../css/style2.css" /> <!--Cuidado esta ruta-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
